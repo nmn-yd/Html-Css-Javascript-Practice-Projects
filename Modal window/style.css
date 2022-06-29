@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a27b5c;
+}
+
+.button-division {
+  background-color: #2c3639;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 4em 0em;
+}
+
+.model-1 {
+  font-size: 1.5rem;
+  padding: 1em;
+  background-color: #dcd7c9;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+.para-graph {
+  width: 64%;
+  position: relative;
+  z-index: 10;
+  max-width: 75%;
+  padding: 1em 3em 8em 3em;
+  background-color: #3f4e4f;
+  border: 3px solid #3ec70b;
+  margin: 13em auto;
+}
+
+.para-graph button {
+  position: absolute;
+  /* background-color: #3f4e4f; */
+  z-index: 10;
+  left: 94%;
+  margin-top: 1rem;
+  border: none;
+  font-size: 3em;
+  padding: 0.2rem 0.8rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.para-graph h1 {
+  font-size: 4.5em;
+  padding: 0.6em 0em;
+  color: #3ec70b;
+  text-transform: uppercase;
+}
+
+.para-graph p {
+  font-size: 2.1em;
+  padding: 0.6em 0em;
+  text-align: justify;
+  text-decoration: solid;
+  color: #3ab0ff;
+}
+
+.para-2 {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+}
