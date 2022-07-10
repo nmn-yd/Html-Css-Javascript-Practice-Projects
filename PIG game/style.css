@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  padding: 8.8em 3em;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* player 1 css */
+.player-1 {
+  width: 50em;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding: 8em 0em;
+  position: relative;
+}
+
+.player-1 h1 {
+  font-size: 5em;
+  font-weight: 900;
+  margin-bottom: 2rem;
+  color: rgb(63, 57, 57);
+}
+
+.player-1-total-score {
+  font-size: 7em;
+  color: #bf2e34;
+  margin: 0em 0em 2em 0em;
+}
+
+.current-1 {
+  background-color: #b95458;
+  width: 20rem;
+
+  padding: 1rem;
+  color: white;
+  border-radius: 10px;
+  display: inline-block;
+  padding-bottom: 2.5rem;
+}
+
+.current-1 h2 {
+  padding: 1rem;
+  font-weight: 50;
+}
+
+.player-1-current-score {
+  font-size: 3.2em;
+  font-weight: 800;
+}
+
+/* player 1 css end here */
+
+/* player-2 css */
+
+.player-2 {
+  width: 50em;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: relative;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 8em 0em;
+}
+
+.player-2 h1 {
+  font-size: 5em;
+  font-weight: 900;
+  margin-bottom: 2rem;
+  color: rgb(63, 57, 57);
+}
+
+.player-2-total-score {
+  font-size: 7em;
+  color: #bf2e34;
+  margin: 0em 0em 2em 0em;
+}
+
+.current-2 {
+  background-color: #b95458;
+  width: 20rem;
+
+  padding: 1rem;
+  color: white;
+  border-radius: 10px;
+  display: inline-block;
+  padding-bottom: 2.5rem;
+}
+
+.current-2 h2 {
+  padding: 1rem;
+  font-weight: 50;
+}
+
+.player-2-current-score {
+  font-size: 3em;
+  font-weight: 800;
+}
+
+/* player 2 css end here */
+
+.emoji {
+  font-size: 2.5rem;
+}
+
+.new-game,
+.roll-dice,
+.hold {
+  position: absolute;
+
+  padding: 0.8rem 2.5rem;
+  font-family: inherit;
+  font-size: 2rem;
+  border-radius: 36px;
+  cursor: pointer;
+
+  background-color: #ffffffb3;
+  border: none;
+}
+
+.new-game:active,
+.roll-dice:active,
+.hold:active {
+  transform: translateY(4px);
+}
+
+.position-1 {
+  top: 15%;
+  left: 43.5%;
+}
+
+.positon-2 {
+  top: 63%;
+  left: 44%;
+}
+
+.position-3 {
+  top: 73%;
+  left: 45%;
+}
+
+.hidden {
+  display: none;
+}
+
+.cover {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: rgba(159, 12, 81, 0.49);
+
+  width: 100%;
+  height: 100%;
+}
+
+.left {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.right {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.dice-img {
+  position: absolute;
+  width: 12rem;
+  height: 10rem;
+  top: 38%;
+  left: 46%;
+}

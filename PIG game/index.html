@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- main body start here -->
+    <div class="main">
+      <!-- player 1 -->
+      <div class="player-1" id="container-1">
+        <h1>PLAYER 1</h1>
+        <p class="player-1-total-score" id="player-0-total">0</p>
+        <div class="current-1">
+          <h2>CURRENT</h2>
+          <p class="player-1-current-score" id="player-0">0</p>
+        </div>
+        <div class="left"></div>
+      </div>
+      <!-- player 1 ends here-->
+
+      <!-- player 2 -->
+      <div class="player-2" id="container-2">
+        <h1>PLAYER 2</h1>
+        <p class="player-2-total-score" id="player-1-total">0</p>
+        <div class="current-2">
+          <h2>CURRENT</h2>
+          <p class="player-2-current-score" id="player-1">0</p>
+        </div>
+        <div class="right cover"></div>
+      </div>
+      <!-- player 2 ends here-->
+    </div>
+
+    <!-- main body end here -->
+
+    <!-- buttons start here -->
+    <div class="buttons">
+      <button class="new-game position-1">
+        <span class="emoji">🔁</span> NEW GAME
+      </button>
+      <button class="roll-dice positon-2" id="pos_dice">
+        <span class="emoji">🎲</span> ROLL DICE
+      </button>
+      <button class="hold position-3">
+        <span class="emoji">📥</span> HOLD
+      </button>
+    </div>
+
+    <!-- buttons end here -->
+
+    <!-- dice -->
+    <img class="dice-img hidden" src="dice-1.png" />
+  </body>
+</html>
